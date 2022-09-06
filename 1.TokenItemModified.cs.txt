@@ -1,0 +1,53 @@
+using AllArt.Solana.Example;
+using Solnet.Rpc.Models;
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+using Solnet.Rpc;
+using LitJson;
+using System;
+
+namespace AllArt.Solana
+{
+  
+    public class TokenItemModified : MonoBehaviour
+    {
+        public TextMeshProUGUI pub_txt;
+        public string jsonUrlPrefix = "https://api-devnet.solscan.io/account?address=";
+
+        TokenAccount tokenAccount;
+        Screen parentScreen;
+
+        TestingJsonPull testingJsonPull;
+
+        private void Start()
+        {
+            testingJsonPull = GetComponent<TestingJsonPull>();
+        }
+
+        public void InitializeData(TokenAccount tokenAccount, Screen screen, KnownToken knownToken = null)
+        {
+            parentScreen = screen;
+            this.tokenAccount = tokenAccount;
+            if (knownToken != null)
+            {
+                pub_txt.text = knownToken.name;
+          
+            }
+            else
+            {
+                //pub_txt.text = tokenAccount.Account.Data.Parsed.Info.Mint;// pubkey;
+                string tokenpubKey = tokenAccount.Account.Data.Parsed.Info.Mint;
+                testingJsonPull.GetDataRoute( jsonUrlPrefix + tokenpubKey);
+
+            }
+            //Debug.Log(tokenAccount.Account.Data.Parsed.Info.Mint);
+            
+        }
+
+        
+
+    }
+}

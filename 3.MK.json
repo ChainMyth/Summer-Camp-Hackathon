@@ -1,0 +1,73 @@
+{
+  "name": "MonkeyKing #1",
+  "description": "5v5 FPS with tokenized characters and in-game assets. Connect, Summon Hero, Enter Battle, Grind Stats, Stake or Rent.",
+  "symbol": "MYTH",
+  "seller_fee_basis_points": 500,
+  "image": "0.png",
+  "external_url": "https://chainmyth.io/",
+  "attributes": [
+    {
+      "trait_type": "Head",
+      "value": "Blue Kufi"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Band Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Cloth",
+      "value": "Medieval Brown"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Dp-28"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Games Won",
+      "value": "TBD"
+    },
+    {
+      "trait_type": "Kills",
+      "value": "TBD"
+    },
+    {
+      "trait_type": "Assist",
+      "value": "TBD"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "TBD"
+    },
+    {
+      "trait_type": "Total Damage",
+      "value": "TBD"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "2qN5mTk7ivxmWEDNUi6Foq3N8X12r81ywRTpbW6UmanP",
+        "share": 100
+      }
+    ]
+  }
+}

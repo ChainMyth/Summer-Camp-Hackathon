@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Pistol",
+        "availability": "Normal",
+        "description": "weapon",
+        "seller_fee_basis_points": 500,
+        "image": "",
+        "external_url": "https://chainmyth.io/",
+        "edition": "2021",
+        "attributes": [
+            {
+                "trait_type": "weapon",
+                "value": "Pistol V1"
+            }
+
+        ],
+        "properties": {
+            "category": "image",
+            "files": [
+                {
+                    "uri": "",
+                    "type": "image/png"
+                }
+            ],
+            "creators": [
+                {
+                    "address": "C7iWdsbEk5E3CBC7PxieDfUsvH91YeVBQQ33VMzahyiF",
+                    "share": 100
+                }
+            ]
+        }
+    }
+]
