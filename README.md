@@ -10,7 +10,10 @@
 
 > Currently we have used  metaplex code base for tokenisation (candy machine)
 
-DUNE - https://explorer.solana.com/address/2B2TTWK3Lcvs8g8YFdmsQyGqyy1efSGEJ2dz9wGFkcG2?cluster=devnet
-MonkeyKing - https://explorer.solana.com/address/8WTbzYTbcSys2BKEKSJhrSqUwMLbKNNL8JX42ZR6QJho?cluster=devnet
-Rifle - https://explorer.solana.com/address/22Hx3hwygaM8qNf2NXMS3LTMjTh7KvgKooGo3NfEMous?cluster=devnet
-Pistol - https://explorer.solana.com/address/HL5xkzHTSSefszQyF2i2FdChTBXbAKeggejELKvkEeU2?cluster=devnet
+> **DUNE** - https://explorer.solana.com/address/2B2TTWK3Lcvs8g8YFdmsQyGqyy1efSGEJ2dz9wGFkcG2?cluster=devnet
+
+> **MonkeyKing** - https://explorer.solana.com/address/8WTbzYTbcSys2BKEKSJhrSqUwMLbKNNL8JX42ZR6QJho?cluster=devnet
+
+> **Rifle** - https://explorer.solana.com/address/22Hx3hwygaM8qNf2NXMS3LTMjTh7KvgKooGo3NfEMous?cluster=devnet
+
+> **Pistol** - https://explorer.solana.com/address/HL5xkzHTSSefszQyF2i2FdChTBXbAKeggejELKvkEeU2?cluster=devnet
